@@ -37,7 +37,6 @@ import retrofit2.Response
 
 private var arrayItems: List<String>? = null
 private var connectionStatus: Boolean = false
-//private var isFullScreenOpenFirst: Boolean = false
 
 class MainActivity : ComponentActivity() {
     private val getData = GetData()
