@@ -6,7 +6,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 object UrlItem {
 
     private var retrofit: Retrofit? = null
-    private val url: String = "https://like-sub.ru/items_url"
+    private val url: String = "https://like-sub.ru/items_url/"
 
     val retrofitInstance: Retrofit?
         get() {

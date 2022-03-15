@@ -4,6 +4,6 @@ import retrofit2.Call
 import retrofit2.http.GET
 
 interface ListItemResponse {
-    @GET("/items.json")
+    @GET("items.json")
     fun getAllItems(): Call<List<String>>
 }
