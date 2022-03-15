@@ -1,4 +1,4 @@
-package com.bilalov.aleftask
+package com.bilalov.task
 
 import android.util.Log
 import androidx.lifecycle.Lifecycle

@@ -1,4 +1,4 @@
-package com.bilalov.aleftask
+package com.bilalov.task
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background

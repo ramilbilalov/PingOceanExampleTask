@@ -1,4 +1,4 @@
-package com.bilalov.aleftask
+package com.bilalov.task
 
 import android.content.Context
 import android.os.Bundle
@@ -25,9 +25,9 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import coil.annotation.ExperimentalCoilApi
 import coil.compose.rememberImagePainter
-import com.bilalov.aleftask.data.request.ListItemResponse
-import com.bilalov.aleftask.data.request.UrlItem
-import com.bilalov.aleftask.ui.theme.WalletTheme
+import com.bilalov.task.data.request.ListItemResponse
+import com.bilalov.task.data.request.UrlItem
+import com.bilalov.task.ui.theme.WalletTheme
 import com.google.accompanist.swiperefresh.SwipeRefresh
 import com.google.accompanist.swiperefresh.rememberSwipeRefreshState
 import kotlinx.coroutines.delay
@@ -42,7 +42,6 @@ class MainActivity : ComponentActivity() {
     private val getData = GetData()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        //generate json
 
         Log.e("TTT", "generate json")
         val service = UrlItem.retrofitInstance?.create(ListItemResponse::class.java)

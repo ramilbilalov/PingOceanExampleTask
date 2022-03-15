@@ -1,4 +1,4 @@
-package com.bilalov.aleftask
+package com.bilalov.task
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalConfiguration

@@ -1,4 +1,4 @@
-package com.bilalov.aleftask.ui.theme
+package com.bilalov.task.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

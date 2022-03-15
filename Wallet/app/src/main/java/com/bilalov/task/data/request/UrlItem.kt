@@ -1,4 +1,4 @@
-package com.bilalov.aleftask.data.request
+package com.bilalov.task.data.request
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
@@ -6,7 +6,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 object UrlItem {
 
     private var retrofit: Retrofit? = null
-    private val url: String = "Убрал Юрл так как компания попросила скрыть его"
+    private val url: String = "https://like-sub.ru/items_url"
 
     val retrofitInstance: Retrofit?
         get() {
